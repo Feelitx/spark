@@ -16,8 +16,6 @@
 #
 
 import time
-import unittest
-
 from pyspark.sql.tests.streaming.test_streaming_foreach_batch import StreamingTestsForeachBatchMixin
 from pyspark.testing.connectutils import ReusedConnectTestCase, should_test_connect
 from pyspark.testing.utils import eventually, timeout
